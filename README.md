@@ -15,7 +15,7 @@ A collection of enhanced components for shadcn-svelte.
 
 <h2 id="installation" style="font-size: 1.4rem;">Installation</h2>
 
-- Copy over the components you need from the [`shared`](share) directory to your project.
+- Copy over the components you need from the [`shared`](shared) directory to your project.
 - Add the following to your `tailwind.config.ts`:
 
 ```diff
