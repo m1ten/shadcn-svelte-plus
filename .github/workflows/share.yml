@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Copy components to shared folder
-        run: cp -r src/lib/components/ui/* shared
+        run: cp -r ./src/lib/components/ ./shared/
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
