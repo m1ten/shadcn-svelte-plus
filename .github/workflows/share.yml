@@ -1,4 +1,4 @@
-name: Copy components to shared folder
+name: Copy components to shared folder and push changes
 on: [push]
 jobs:
   build:
