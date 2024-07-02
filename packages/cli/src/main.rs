@@ -116,7 +116,7 @@ async fn main() {
                     }
                 };
 
-                let dir = format!("src/components/ui/{}", component);
+                let dir = format!("src/lib/components/ui/{}", component);
                 let path = format!("{}/{}", dir, name);
 
                 match tokio::fs::create_dir_all(dir).await {
