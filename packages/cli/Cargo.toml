@@ -2,6 +2,9 @@
 name = "shadcn-svelte-plus"
 version = "0.1.0"
 edition = "2021"
+description = "shadcn-svelte-plus cli tool"
+license = "MIT"
+repository = "https://github.com/m1ten/shadcn-svelte-plus"
 
 [dependencies]
 reqwest = "0.12"
