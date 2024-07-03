@@ -28,6 +28,16 @@ async fn main() {
                 }
             };
 
+            println!("Adding component: {}", component);
+            println!("Continue? This will overwrite existing files. [y/N]");
+
+            let mut input = String::new();
+            std::io::stdin().read_line(&mut input).unwrap();
+            if input.trim().to_lowercase() != "y" {
+                eprintln!("Aborted");
+                return;
+            }
+
             let url = format!(
                 "{}/repos/{}/contents/shared/ui/{}",
                 API_URL, REPO, component
