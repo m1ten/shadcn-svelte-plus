@@ -39,7 +39,7 @@ const config = {
 [Shadcn](https://www.shadcn.com/) for the design and
 [Shadcn-svelte](https://www.shadcn-svelte.com/) for the components.
 
-Enhanced Button component forked from [jakobhoeg/enhanced-button](https://github.com/jakobhoeg/enhanced-button).
+Enhanced Button component forked from [jakobhoeg/enhanced-button](https://github.com/jakobhoeg/enhanced-button), originally written for react.js.
 
 <h2 id="license" style="font-size: 1.4rem;">License</h2>
 
